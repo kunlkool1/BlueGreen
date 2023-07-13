@@ -1,0 +1,77 @@
+@import url(./base.less);
+
+/* ------------------------- Banner -------------------------*/ 
+.banner {
+    background-color: #fff;
+
+    &-img {
+        padding-bottom: 46.875%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 1rem;
+    }
+
+    .swiper {
+        border-radius: 1rem;
+
+    }
+}
+
+/* ------------------------- Feature -------------------------*/ 
+.feature {
+
+    &-item {
+        display: flex;
+        align-items: center;
+        column-gap: 1rem;
+        color: @primary-color;
+    }
+
+    &-icon {
+        i {
+            font-size: 3rem;
+        }
+    }
+
+    &-content {
+        P {
+            margin-bottom: 0;
+        }
+    }
+}
+
+/* ------------------------- Brand -------------------------*/ 
+.brand {
+    
+    &-list {
+        .box(.5rem);
+        padding: 1.5rem 0;
+    }
+
+    .swiper {
+        &-slide {
+            width: auto;       
+        }
+
+        &-img {
+            display: block;
+            width: 15vw;
+            min-width: 130px;
+            padding-bottom: 56.25%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 80%;
+            background-color: white;
+        }
+    }
+}
+
+.map {
+    .box(.5rem);
+}
+
+.contact {
+    .box(1rem);
+    padding: 2rem;
+}
